@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">-->
+        <!--<meta http-equiv="refresh" content="900">  <!-- Refeshes the page every 15 minutes. The '900' is in seconds -->
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+       
+    </head>
+    
+    <body>
+        <!-- CAROUSEL -->
+        <div id="carouselPrincipal" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselPrincipal" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselPrincipal" data-slide-to="1"></li>
+                <li data-target="#carouselPrincipal" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class ="img_carousel" src="images/banner1.JPG" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-1">Martí Quintana</h5>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class ="img_carousel" src="images/banner2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class ="img_carousel" src="images/banner3.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselPrincipal" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselPrincipal" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Següent</span>
+            </a>
+        </div>
+        
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-center bg-primary " id="navbarNav">
+                <ul class="navbar-nav navbar-center bg-primary">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#who">Who I am? <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">My Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#elevator">Elevator Pitch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#curriculum">Corriculum Vitae</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- CONTAINER -->
+        <div class="container">
+            
+            <!-- Who I am? -->
+            <div class="separador" id="who">
+            
+            </div>            
+            <div class="seccio">
+                <h2 class="titol">Who I am?</h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img id="myselfImage" src="images/myself.jpg">
+                    </div>
+                    <div class="col-lg-8" >
+                        <p class="text-justify">
+                            My name is Martí Quintana, I’m 19 years old and I’m from Barcelona. <br>
+                            <br>
+                            Since 2017 I’ve been studying a vocational training in the Software field called “Desenvolupament d’Aplicacions Multiplataforma”. I studied it in “Centre D’estudis Politècnics”, located in “Plaça Urquinaona”, Barcelona. This current year, 2019, I’m finishing my studies. <br>
+                            <br>
+                            In these two years, I’ve learned a lot of things related to the Computer Science field. For example, I’ve learned how a computers works, how to program applications for mobile phones (Java) or how to program desktop applications (C#) and also how to work with databases (SQL).<br>
+                            <br>
+                            This current year, I’ve gone to London to do the internship in an abroad company called GJQ Holdings LTD, located in Stratford. There I learned PHP, JavaScript, Google Analytics, and the Laravel Framework. I could do my internship abroad because a grant, which I get by a contest, provided by “Centre d’Estudis Politècnics” and the Eramus+ program.<br>
+                            <br>
+                            Moving aside from my College studies, in these two years, I got the Outdoor Activities Instructor title. This title allows me to do outdoor activities (mountain, beach, trekking…) in charge of kids and young people. Also I’ve been a volunteer, as an Instructor, in “Agrupament Escolta Tant Com Puc”, in El Vendrell, Tarragona. An “Agrupament Escolta” is an association which has some similitudes with the boy scouts of America.
+
+                        </p>
+                        
+                    </div>
+                    <p>
+                        Also I can play some musicals instruments like the flute, the accordion or the bass guitar. Also, I can play some traditional instruments like the“Gralla” or the “Tarota” which are very ancient. In the languages field I’m very fluent in Spanish and Catalan and I’m quite fluent in English.
+                    </p>
+                </div>
+            </div>
+             
+            <!-- My Skills -->
+            <div class="separador" id="skills">
+            
+            </div>
+            <div class="seccio">
+                 <h2 class="titol">My Skills</h2>
+                
+                <p class="text-justify"> As I said before I've been an Outdoor Activities Instructor for a two years but also I was a volunteer in “Casal d’Infants del Raval” for three     years, a place where I was in charge of kids who were in risk of social exclusion.
+                    These two experiences made me improve my soft skills into another level. I’ve become a social person who can fit almost in every group of people or work team.
+                    While I’ve been studying this vocational training, I’ve developed some skills in the Software field, I’ve learned how to think as a programmer, which I think is the most important think. Also I consider that I can work well under pressure.<br>
+                </p>
+                
+                <div class="row">
+                    <div class="col-lg text-center">
+                        <ul class="list-group border-primary">
+                          <li class="list-group-item active"><h4>Hard or Pofessional Skills</h4></li>
+                          <li class="list-group-item">Android Development</li>
+                          <li class="list-group-item">Google Analytics</li>
+                          <li class="list-group-item">Desktop & Web Development</li>
+                          <li class="list-group-item">Knowing Foreing Languages</li>
+                          <li class="list-group-item">Coding ability</li>     
+                        </ul>                    
+                    </div>
+                     <div class="col-lg text-center">
+                        <ul class="list-group border-primary">
+                          <li class="list-group-item active"><h4>Soft or Personal Skills</h4></li>
+                          <li class="list-group-item">Polite</li>
+                          <li class="list-group-item">Leading</li>
+                          <li class="list-group-item">Confident</li>
+                          <li class="list-group-item">Organised</li>
+                          <li class="list-group-item">Team-working</li>                         
+                        </ul>                    
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- Elevator Pitch -->
+            <div class="separador" id="elevator">
+            
+            </div>
+            <div class="seccio">
+                <h2 class="titol">Elevator Pitch</h2>
+                <p>Here there is my elevator pitch, where I talk about myself, my skills, my goals... in just one minute! </p>
+               
+                <video id="elevatorVideo" controls>
+                    
+                    <source src="videos/elevatorPitch.mp4" type="video/mp4">
+                    
+                </video>
+            </div>
+            
+            <!-- Corriculum -->
+            <div class="separador" id="curriculum">
+            
+            </div>
+            <div class="seccio">                
+                <h2 class="titol">Curriculum Vitae</h2>
+                <p>Here there is my Curriculum Vitae elaborated with Eroupass  </p>
+                
+                <a href="files/CV-Europass-MartiQuintana-EN.pdf" rel="noopener noreferrer" target="_blank">
+                    <button class="btn bg-primary text-white">
+                        My Curriculum  Vitae
+                    </button>        
+                </a>
+            </div>  
+            
+            <!-- More Info -->
+            <div class="separador">
+            
+            </div>
+            <div class="seccio">                
+                <h2 class="titol">More Info</h2>
+                <p>If you want to kno more about me, jus click teh button to go to my LinkdIn Profil</p>
+                
+                <a href="https://www.linkedin.com/in/mart%C3%AD-quintana-612aa4187/" rel="noopener noreferrer" target="_blank">
+                    <button class="btn bg-primary text-white">
+                        My LinkedIn Profile
+                    </button>        
+                </a>
+            </div> 
+            
+        </div>    
+    
+    </body>
+    
+    <footer class="bg-primary">
+        Copyright: Martí Quintana <br>
+        All this website has been created by me. <br>
+        Using HTML, CSS and Bootstrap.
+        
+    </footer>
+</html>
+
