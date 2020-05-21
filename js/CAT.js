@@ -32,7 +32,7 @@ var CAT = {
     },
     projects:{
         mNACTEC: "Aquest fou el primer projecte, el client fou el mNACTEC un museu científic de Terrassa, Barcelona. Vàrem crear una pàgina web relacionada amb l'història de la radio.<br> <!--<a class=\"button btn btn-dark\" style=\"color: white;\">link radiocep</a>   </br>TEAMMATES --> </br> Lluis Perea </br> Oriol Barrera </br> Roger Baldomà",
-        broggi: "Aquest fou el segon projecte, el client fou l'institut \"Moises Broggi\" de Barcelona. Vàrem crear una pàgina web amb un sistema mèdic per a gestionar inciències. </br> </br></br> Eduard Gomà </br> Jordi Sanchez",
+        broggi: "Aquest fou el segon projecte, el client fou l'institut \"Moises Broggi\" de Barcelona. Vàrem crear una pàgina web amb un sistema mèdic per a gestionar inciències. </br> </br></br><a href=\"https://eduardgip85.github.io/portfolio/\">Eduard Gomà </a> </br> Jordi Sanchez",
         mq: "" 
     },
     internship:{
