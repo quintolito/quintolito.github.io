@@ -1,0 +1,128 @@
+/*TIPOGRAFIA FONTS */
+    /*titols*/
+    @import url(https://fonts.googleapis.com/css2?family=Titan+One&display=swap);
+    /*text*/
+    @import url(https://fonts.googleapis.com/css2?family=Marmelad&display=swap);
+
+    @import url(https://fonts.googleapis.com/css2?family=Sarina&display=swap);
+    /*classe per al titols*/
+.text_titol{
+    font-family: 'Titan One', cursive;
+}
+
+.text_random{
+    font-family: 'Sarina', cursive;
+}
+
+.text_titol_max{
+    font-family: 'Bungee', cursive !important;
+    font-size: 200px;
+}
+    /*per a tot la resta*/
+*{
+    font-family: 'Marmelad', sans-serif;
+}
+
+/* COLORS */
+.primari{
+    background-color: #006979 !important;
+}
+
+.alerta{
+    background-color: #6DE5ED !important;
+}
+
+.casual{
+    background-color: white  !important;
+}
+
+.casual:hover{
+    background-color: #6DE5ED   !important;
+}
+
+body{
+    /*background-color: #B6ECF0 ;*/
+    background: linear-gradient(to right, #ffffff, #B6ECF0);
+}
+
+li a{
+    color: white !important;
+    /*width: 30px;*/
+}
+
+li a:hover{
+    color: #6DE5ED  !important;
+}
+
+div a:hover{
+    color: #6DE5ED  !important;
+}
+
+.imatge_entorns{
+    /*max-width: 100px;*/
+    max-height: 100px;
+}
+
+.more {display: none;}
+
+/* navar */
+.idioma{
+    max-height: 35px;
+}
+
+/* navar */
+.idioma_imatge{
+    height: 55px;
+    margin: auto;
+}
+
+/*INTERN*/
+.imatge_intern{
+    max-height: 125px;
+}
+
+/* ANIMACIO anclas*/
+html {
+    scroll-behavior: smooth;
+}
+
+/* collapsible*/
+.collapsible {
+    background-color: #6DE5ED  ;
+    cursor: pointer;
+    padding: 18px;
+    width: 75%;
+    border: 1px;
+    outline: none;
+    font-size: 15px;
+    
+  }
+  /*
+  .collapsible{
+    border-radius: 10px 10px 0px 0px !important;
+  }*/
+  .active, .collapsible:hover {
+    background-color: #56B3BA ;
+  }
+  
+  .content {
+    margin-left: 12.5%;
+    width: 75%;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #B6ECF0 ;
+    
+  }
+
+/*PROJECTS*/
+.imatge_projects{
+    height: 100px;
+    max-width: 75%;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,89 @@
+
+var missatges = ENG;
+
+function canviarIdioma(idioma){
+    
+    if(idioma == "ENG" ){
+        missatges = ENG;
+    }else if(idioma == "CAT"){
+        missatges = CAT;
+    }else{
+        missatges = ESP;
+    }
+    aplicarCanvis()
+}
+
+function aplicarCanvis(){
+
+
+    // NAV
+    document.getElementById("item1").innerHTML = missatges.nav.item1;
+    document.getElementById("item2").innerHTML = missatges.nav.item2;
+    document.getElementById("item3").innerHTML = missatges.nav.item3;
+    document.getElementById("item4").innerHTML = missatges.nav.item4;
+    document.getElementById("item5").innerHTML = missatges.nav.item5;
+    document.getElementById("item6").innerHTML = missatges.nav.item6;
+    document.getElementById("item7").innerHTML = missatges.nav.item7;
+    
+
+    // WHO
+    document.getElementById("titol_who").innerHTML = missatges.nav.item1;
+    document.getElementById("main_text_who").innerHTML = missatges.who.main_text;
+    document.getElementById("sec_text_who").innerHTML = missatges.who.sec_text;
+
+    // SKILLS
+    document.getElementById("titol_skills").innerHTML = missatges.nav.item2;
+
+    var llista1 = document.getElementById("llista_1");
+
+    /*let li = document.createElement("li");
+    // el parsejem al node
+    li.appendChild(document.createTextNode(missatges.skills.items[0]));
+    li.className = "list-group-item active primari";
+    // l'afegim a la llista
+    llista1.appendChild(li)
+    
+    for(var i = 1; i < missatges.skills.items.length; i++){
+        // si no és a la llista creem un element <li>
+        let li = document.createElement("li");
+        // el parsejem al node
+        li.appendChild(document.createTextNode(missatges.skills.items[i]));
+        li.className= "list-group-item";
+        // l'afegim a la llista
+        llista1.appendChild(li)
+    }*/
+    
+    var llista = document.getElementsByClassName("list-group-item");
+    debugger;
+    for(var i = 0; i < missatges.skills.items.length; i++){
+        // si no és a la llista creem un element <li>
+        
+        // el parsejem al node
+       llista[i].innerHTML= missatges.skills.items[i];
+    }
+
+    // ENTORNS
+    document.getElementById("titol_entorns").innerHTML = missatges.nav.item3;
+
+    // PROJECTES 
+    document.getElementById("titol_projectes").innerHTML = missatges.nav.item4;
+    document.getElementById("projects_mNACTEC").innerHTML = missatges.projects.mNACTEC;
+    document.getElementById("projects_broggi").innerHTML = missatges.projects.broggi;
+
+    // INTERN
+    document.getElementById("titol_practiques").innerHTML = missatges.nav.item5;
+    document.getElementById("intern_upc_text").innerHTML = missatges.internship.upc.text;
+    document.getElementById("intern_upc_link").href = missatges.internship.upc.a;
+    document.getElementById("intern_gjq_text").innerHTML = missatges.internship.gjq.text;
+    document.getElementById("intern_gjq_link").href = missatges.internship.gjq.a;
+    
+    
+    // + INFO
+    document.getElementById("titol_more").innerHTML = missatges.nav.item7;
+    document.getElementById("more_cv").innerHTML = missatges.mes_info.cv;
+    document.getElementById("more_linkedIn").innerHTML = missatges.mes_info.linkedIn;
+
+    // mirar coses lògiques
+    text_who();    
+    text_who();    
+}

@@ -4,14 +4,33 @@
         <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">-->
         <!--<meta http-equiv="refresh" content="900">  <!-- Refeshes the page every 15 minutes. The '900' is in seconds -->
 
+        <!--
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+       
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        -->
         
+        
+        
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- EL MEU CSS-->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/myCSS.css">
+
+        <!-- Configurem en quin idioma es mostrarà la pagina web -->
+        <script src="js/CAT.js"></script>
+        <script src="js/ESP.js"></script>
+        <script src="js/ENG.js"></script>
+        <script src="js/idioma.js"></script>
     </head>
     
     <body>
@@ -25,9 +44,8 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class ="img_carousel" src="images/banner1.JPG" alt="First slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="display-1">Martí Quintana</h5>
-                        
+                    <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+                        <h5 class="display-1 text_random">Martí Quintana</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -48,26 +66,63 @@
         </div>
         
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-            <a class="navbar-brand" href="#">Menu</a>
+        <nav class="navbar navbar-expand-xl navbar-dark sticky-top primari align-center">
+            <a class="navbar-brand" href="#">
+                <img src="images/LogoTITAN.png" width="75" height="40" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse navbar-center bg-primary " id="navbarNav">
-                <ul class="navbar-nav navbar-center bg-primary">
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <!-- items navnar -->
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#who">Who I am? <span class="sr-only">(current)</span></a>
+                        <a id="item1" class="nav-link" href="#who" alt="boto_who"><!-- text --><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">My Skills</a>
+                        <a id="item2" class="nav-link" href="#skills" alt="boto_who"><!-- text --></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#elevator">Elevator Pitch</a>
+                        <a id="item3" class="nav-link" href="#entorns" alt="boto_who"><!-- text --></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#curriculum">Corriculum Vitae</a>
+                        <a id="item4" class="nav-link" href="#projectes" alt="boto_who"><!-- text --></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="item5" class="nav-link" href="#practiques" alt="boto_who"><!-- text --></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="item6" class="nav-link" href="#elevator" alt="boto_elevator"><!-- text --></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="item7" class="nav-link" href="#more_info" alt="boto_curriculum"><!-- text --></a>
                     </li>
                 </ul>
+                <div class="item dropdown">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle btn btn-primary casual text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img class="idioma" src="images/language/idioma.png" alt="idioma">
+                        </a>
+                        <div class="dropdown-menu text-center dark" aria-labelledby="navbarDropdown">
+                           
+                            <button class="dropdown-item" onclick="canviarIdioma('CAT')">
+                                <img class="idioma_imatge"  src="images/language/senyera.png" alt="Català">
+                            </button>
+                            <button class="dropdown-item" onclick="canviarIdioma('ESP')">
+                                <img class="idioma_imatge"  src="images/language/esp.png" alt="Español">
+                            </button>
+                            <button class="dropdown-item" onclick="canviarIdioma('ENG')">
+                                <img class="idioma_imatge" src="images/language/uk.png" alt="English">
+                            </button>
+                            
+                            
+                          
+                          
+                          
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </nav>
         
@@ -75,33 +130,26 @@
         <div class="container">
             
             <!-- Who I am? -->
-            <div class="separador" id="who">
-            
-            </div>            
-            <div class="seccio">
-                <h2 class="titol">Who I am?</h2>
+                                
+            <div class="seccio pt-3" id="who">
+                <h2 id="titol_who" class="titol text_titol mt-5"><!-- text --></h2>
                 <div class="row">
                     <div class="col-lg-4">
                         <img id="myselfImage" src="images/myself.jpg">
                     </div>
                     <div class="col-lg-8" >
-                        <p class="text-justify">
-                            My name is Martí Quintana, I’m 19 years old and I’m from Barcelona. <br>
-                            <br>
-                            Since 2017 I’ve been studying a vocational training in the Software field called “Desenvolupament d’Aplicacions Multiplataforma”. I studied it in “Centre D’estudis Politècnics”, located in “Plaça Urquinaona”, Barcelona. This current year, 2019, I’m finishing my studies. <br>
-                            <br>
-                            In these two years, I’ve learned a lot of things related to the Computer Science field. For example, I’ve learned how a computers works, how to program applications for mobile phones (Java) or how to program desktop applications (C#) and also how to work with databases (SQL).<br>
-                            <br>
-                            This current year, I’ve gone to London to do the internship in an abroad company called GJQ Holdings LTD, located in Stratford. There I learned PHP, JavaScript, Google Analytics, and the Laravel Framework. I could do my internship abroad because a grant, which I get by a contest, provided by “Centre d’Estudis Politècnics” and the Eramus+ program.<br>
-                            <br>
-                            Moving aside from my College studies, in these two years, I got the Outdoor Activities Instructor title. This title allows me to do outdoor activities (mountain, beach, trekking…) in charge of kids and young people. Also I’ve been a volunteer, as an Instructor, in “Agrupament Escolta Tant Com Puc”, in El Vendrell, Tarragona. An “Agrupament Escolta” is an association which has some similitudes with the boy scouts of America.
-
+                        <p id="main_text_who" class="text-justify">
+                           <!-- text introduit via codi -->
                         </p>
                         
                     </div>
-                    <p>
-                        Also I can play some musicals instruments like the flute, the accordion or the bass guitar. Also, I can play some traditional instruments like the“Gralla” or the “Tarota” which are very ancient. In the languages field I’m very fluent in Spanish and Catalan and I’m quite fluent in English.
+                    <p id="sec_text_who" class="more">
+                        <!-- text -->
                     </p>
+                    
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary" onclick="text_who()" id="myBtn">Read more</button>
                 </div>
             </div>
              
@@ -110,92 +158,255 @@
             
             </div>
             <div class="seccio">
-                 <h2 class="titol">My Skills</h2>
+                 <h2 class="titol text_titol" id="titol_skills"><!-- text --></h2>
                 
-                <p class="text-justify"> As I said before I've been an Outdoor Activities Instructor for a two years but also I was a volunteer in “Casal d’Infants del Raval” for three     years, a place where I was in charge of kids who were in risk of social exclusion.
-                    These two experiences made me improve my soft skills into another level. I’ve become a social person who can fit almost in every group of people or work team.
-                    While I’ve been studying this vocational training, I’ve developed some skills in the Software field, I’ve learned how to think as a programmer, which I think is the most important think. Also I consider that I can work well under pressure.<br>
+                <p class="text-justify">
+                    <!-- text -->
                 </p>
                 
                 <div class="row">
                     <div class="col-lg text-center">
-                        <ul class="list-group border-primary">
-                          <li class="list-group-item active"><h4>Hard or Pofessional Skills</h4></li>
-                          <li class="list-group-item">Android Development</li>
-                          <li class="list-group-item">Google Analytics</li>
-                          <li class="list-group-item">Desktop & Web Development</li>
-                          <li class="list-group-item">Knowing Foreing Languages</li>
-                          <li class="list-group-item">Coding ability</li>     
+                        <ul id ="llista_1" class="list-group">
+                            
+                          <li class="list-group-item active primari"><h4>Hard or Pofessional Skills</h4></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>     
+                          
                         </ul>                    
                     </div>
                      <div class="col-lg text-center">
-                        <ul class="list-group border-primary">
-                          <li class="list-group-item active"><h4>Soft or Personal Skills</h4></li>
-                          <li class="list-group-item">Polite</li>
-                          <li class="list-group-item">Leading</li>
-                          <li class="list-group-item">Confident</li>
-                          <li class="list-group-item">Organised</li>
-                          <li class="list-group-item">Team-working</li>                         
+                        <ul id ="llista_2" class="list-group">
+                          <li class="list-group-item active primari"><h4>Soft or Personal Skills</h4></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>
+                          <li class="list-group-item"></li>                         
                         </ul>                    
                     </div>
                 </div>
                 
             </div>
+
+            <!-- Entorns professionals -->
+            <div class="separador" id="entorns">
+            
+            </div>
+            <div class="seccio">
+                <h2 class="titol text_titol" id="titol_entorns">Entorns Professionals</h2>       
+                <div class="row text-center mt-4">
+                    <div class="col ">
+                        <img class="imatge_entorns" src="images/frameworks/laravel_logo.png" alt="Laravel">
+                        <p>Laravel</p>
+                    </div>
+                    <div class="col ">
+                        <img class="imatge_entorns" src="images/frameworks/vueJS.png" alt="Vue.js">
+                        <p>Vue.js </p>
+                    </div>
+                    <div class="col ">
+                        <img class="imatge_entorns" src="images/frameworks/Angular.png" alt="Angular">
+                        <p>Angular </p>
+                    </div>
+                    <div class="col ">
+                        <img class="imatge_entorns" src="images/frameworks/bootstrap.png" alt="Bootstrap">
+                        <p>Bootstrap </p>
+                    </div>
+                    <div class="col ">
+                        <img class="imatge_entorns" src="images/frameworks/html+css.png" alt="HTML + CSS">
+                        <p>HTML + CSS</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col ">
+                        <img class="imatge_entorns" src="images/languages/php.png" alt="PHP">
+                        <p>PHP</p>
+                    </div>
+                    <div class="col ">
+                        <img class="imatge_entorns" src="images/languages/js.png" alt="JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="col ">
+                        <img class="imatge_entorns" src="images/languages/java.png" alt="" srcset="">
+                        <p>Java</p>
+                    </div>
+                    <div class="col ">
+                        <img class="imatge_entorns" src="images/languages/c++.png" alt="" srcset="">
+                        <p>C++</p>
+                    </div>
+                    <div class="col ">
+                        <img class="imatge_entorns" src="images/languages/csharp.png" alt="" srcset="">
+                        <p>C#</p>
+                    </div>
+                </div>
+           </div>
+
+            <!-- Projectes -->
+            <div class="separador" id="projectes">
+            
+            </div>
+            <div class="seccio">
+                <h2 class="titol text_titol" id="titol_projectes">Projectes</h2>     
+                <div class="row text-center mt-4">
+                    <div class="col sm-4">
+                        <a href="http://abp-politecnics.com/2020/dwb0203/public" rel="noopener noreferrer" target="_blank">
+                            <img class="imatge_projects" src="images/projects/mnatec.jpg" alt="" srcset="">
+                        </a>                        
+                        <div class="mt-3">
+                            <button class="collapsible">
+                                <h5>
+                                    mNACTEC
+                                </h5>
+                            </button>
+                            <div class="content">
+                                <p id="projects_mNACTEC"></p>
+                            </div>
+                        </div>
+                    </div>     
+                    <div class="col sm-4">
+                        <a href="http://abp-politecnics.com/2020/dwb0203/public" rel="noopener noreferrer" target="_blank">
+                            <img class="imatge_projects" src="images/projects/broggivec.PNG" alt="" srcset="">
+                        </a>
+                        <div class="mt-3">
+                            <button class="collapsible">
+                                <h5>
+                                    Broggi
+                                </h5>
+                            </button>
+                            <div class="content">
+                                <p id="projects_broggi"> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col sm-4">
+                        <img class="imatge_projects" src="images/LogoTITAN.png" alt="" srcset="">                        
+                        <div class="mt-3">
+                            <button class="collapsible">
+                                <h5>
+                                    Master Quizz
+                                </h5>
+                            </button>
+                            <div class="content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>             
+           </div>
+            
+            <!-- Pràctiques -->
+            <div class="separador" id="practiques">
+            
+            </div>
+            <div class="seccio">
+                <h2 class="titol text_titol" id="titol_practiques">Practiques</h2>     
+                <div class="row text-center">
+                    <div class="col sm-6">
+                        <img class="imatge_intern" src="images/intern/upc.png" alt="">
+                        <div class="mt-3">
+                            <button class="collapsible">
+                                <h5>
+                                    UPC / GGCC
+                                </h5>
+                            </button>
+                            <div class="content">
+                                <p id="intern_upc_text"><!-- text --></p>
+                                <a id="intern_upc_link" class="btn" rel="noopener noreferrer" target="_blank" href="">GGCC</a>
+                            </div>
+                        </div>                       
+                    </div>    
+
+                    <div class="col sm-6">
+                        <img class="imatge_intern" src="images/intern/gjq_total_invisible.png" alt="">
+                        <div class="mt-3">
+                            <button class="collapsible">
+                                <h5>
+                                    GJQ Holdigns / ERASMUS+
+                                </h5>
+                            </button>
+                            <div class="content">
+                                <p id="intern_gjq_text"><!-- text --></p>
+                                <a id="intern_gjq_link" class="btn" rel="noopener noreferrer" target="_blank" href="">Workin spaces</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>                          
+           </div>
             
             <!-- Elevator Pitch -->
             <div class="separador" id="elevator">
             
             </div>
             <div class="seccio">
-                <h2 class="titol">Elevator Pitch</h2>
+                <h2 class="titol text_titol">Elevator Pitch</h2>
+                <!-- 
                 <p>Here there is my elevator pitch, where I talk about myself, my skills, my goals... in just one minute! </p>
-               
-                <video id="elevatorVideo" controls>
+                    -->
+                <video class="col-12" id="elevatorVideo" controls>
                     
-                    <source src="videos/elevatorPitch.mp4" type="video/mp4">
+                    <source src="videos/elevator_pitch.mp4" type="video/mp4">
                     
                 </video>
             </div>
             
-            <!-- Corriculum -->
-            <div class="separador" id="curriculum">
+            <!-- More info -->
+            <div class="separador" id="more_info">
             
             </div>
             <div class="seccio">                
-                <h2 class="titol">Curriculum Vitae</h2>
-                <p>Here there is my Curriculum Vitae elaborated with Eroupass  </p>
+                <h1 class="titol text_titol" id="titol_more"></h1>
                 
-                <a href="files/CV-Europass-MartiQuintana-EN.pdf" rel="noopener noreferrer" target="_blank">
-                    <button class="btn bg-primary text-white">
-                        My Curriculum  Vitae
-                    </button>        
-                </a>
+                <div class="row">
+                    <div class="col-6">
+                        <h5>Curriculum Vitae</h5>
+                        <p id="more_cv"> </p>
+                
+                        <a href="files/Curriculum Vitae Marti Quintana.pdf" rel="noopener noreferrer" target="_blank">
+                            <button class="btn bg-primary text-white">
+                                Curriculum  Vitae
+                            </button>        
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <h5>LinkedIn</h5>
+                        <p id="more_linkedIn"></p>
+                        <a href="https://www.linkedin.com/in/mart%C3%AD-quintana-612aa4187/" rel="noopener noreferrer" target="_blank">
+                            <button class="btn bg-primary text-white">
+                                LinkedIn 
+                            </button>        
+                        </a>
+                    </div> 
+                </div>
+                
             </div>  
             
-            <!-- More Info -->
+            <!-- random -->
             <div class="separador">
             
             </div>
             <div class="seccio">                
-                <h2 class="titol">More Info</h2>
-                <p>If you want to kno more about me, jus click teh button to go to my LinkdIn Profil</p>
-                
-                <a href="https://www.linkedin.com/in/mart%C3%AD-quintana-612aa4187/" rel="noopener noreferrer" target="_blank">
-                    <button class="btn bg-primary text-white">
-                        My LinkedIn Profile
-                    </button>        
-                </a>
-            </div> 
-            
+               
+            </div>
         </div>    
     
     </body>
     
-    <footer class="bg-primary">
+    <footer class="primari" style="color: white;">
         Copyright: Martí Quintana <br>
         All this website has been created by me. <br>
-        Using HTML, CSS and Bootstrap.<br>
+        Using HTML, CSS, JS and Bootstrap. <br>
         Mail: martiquintana@gmail.com
     </footer>
 </html>
+
+<script src="js/index.js"></script>
+<script>
+    aplicarCanvis();
+    
+</script>
+
+
 

@@ -11,11 +11,11 @@
 .img_carousel{
     width: inherit;
     object-fit: cover;
-    max-height: 450px;
+    max-height: 400px;
 }
 
 .carousel-inner{
-    height: 450px;
+    height: 400px;
 }
 
 
@@ -35,7 +35,7 @@
 
 /* Container */
 .seccio{
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 .titol{
@@ -44,21 +44,19 @@
 }
 
 /* Elevator Pitch*/
-#elevatorVideo{
-    width: -webkit-fill-available;
-}
+
 
 /*FOOTER*/
 footer{
-    margin-top: 30px;
-    padding: 30px;
+    margin-top: 50px;
+    padding: 50px;
     text-align: center;
 }
 
 /* media queries */
 @media screen and (max-width: 992px){
     .carousel-inner{
-        height: 250px;
+        height: 200px;
     }
     .display-1{
         font-size: 30px;
@@ -66,13 +64,13 @@ footer{
     .img_carousel{
         width: inherit;
         object-fit: cover;
-        max-height: 250px;
+        max-height: 200px;
     }
     .col-lg{
         margin-bottom: 15px;
     }
     #elevatorVideo{
-        max-width: 500px;
+        max-width: 100%;
     }
     
 }
