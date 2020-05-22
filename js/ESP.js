@@ -30,8 +30,8 @@ var ESP = {
         ]
     },
     projects:{
-        mNACTEC: "Este fué el primer proyecto, el cliente fué el mNACTEC un museo científico de Terrassa, Barcelona. Creamos una página web relacionada con la historia de la Radio.</br> <!--<a class=\"button btn btn-dark\" style=\"color: white;\">link radiocep</a>   </br>TEAMMATES --> </br> Lluis Perea </br> Oriol Barrera </br> Roger Baldomà",
-        broggi: "Este fué el segundo proyecto, el cliente fué un instituo llamado \"Moises Broggi\" de Barcelona. Creamos una página web donde hay una sistema médico para gestionar indiencias.</br> </br></br> Eduard Gomà </br> Jordi Sanchez",
+        mNACTEC: "Este fué el primer proyecto, el cliente fué el mNACTEC un museo científico de Terrassa, Barcelona. Creamos una página web relacionada con la historia de la Radio.</br>  </br> <a href=\"http://lluisperea.herokuapp.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Lluis Perea</a> </br> Oriol Barrera </br> Roger Baldomà </br> </br><a><button class=\"btn btn-primary what\">Watch Project</button></a>",
+        broggi: "Este fué el segundo proyecto, el cliente fué un instituo llamado \"Moises Broggi\" de Barcelona. Creamos una página web donde hay una sistema médico para gestionar indiencias.</br> </br> <a href=\"https://eduardgip85.github.io/portfolio/\">Eduard Gomà </a> </br> Jordi Sanchez </br></br></br><a href=\"http://abp-politecnics.com/2020/dwb0203/public\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Ver Proyecto</button></a></p>",
         mq: "" 
     },
     internship:{

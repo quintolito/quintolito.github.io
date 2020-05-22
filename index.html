@@ -23,7 +23,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
         <!-- EL MEU CSS-->
-        <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" type="text/css" href="css/myCSS.css">
 
         <!-- Configurem en quin idioma es mostrarà la pagina web -->
@@ -81,22 +80,22 @@
                         <a id="item1" class="nav-link" href="#who" ><!-- text --><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a id="item2" class="nav-link" href="#skills"><!-- text --></a>
+                        <a id="item2" class="nav-link" href="#titol_skills"><!-- text --></a>
                     </li>
                     <li class="nav-item">
-                        <a id="item3" class="nav-link" href="#entorns"><!-- text --></a>
+                        <a id="item3" class="nav-link" href="#titol_entorns"><!-- text --></a>
                     </li>
                     <li class="nav-item">
-                        <a id="item4" class="nav-link" href="#projectes"><!-- text --></a>
+                        <a id="item4" class="nav-link" href="#titol_projectes"><!-- text --></a>
                     </li>
                     <li class="nav-item">
-                        <a id="item5" class="nav-link" href="#practiques" ><!-- text --></a>
+                        <a id="item5" class="nav-link" href="#titol_practiques" ><!-- text --></a>
                     </li>
                     <li class="nav-item">
                         <a id="item6" class="nav-link" href="#elevator" ><!-- text --></a>
                     </li>
                     <li class="nav-item">
-                        <a id="item7" class="nav-link" href="#more_info"><!-- text --></a>
+                        <a id="item7" class="nav-link" href="#titol_more"><!-- text --></a>
                     </li>
                 </ul>
                 <div class="item dropdown">
@@ -115,11 +114,6 @@
                             <button class="dropdown-item" onclick="canviarIdioma('ENG')">
                                 <img class="idioma_imatge" src="images/language/uk.png" alt="English">
                             </button>
-                            
-                            
-                          
-                          
-                          
                         </div>
                     </div>
                     
@@ -130,15 +124,14 @@
         <!-- CONTAINER -->
         <div class="container">
             
-            <!-- Who I am? -->
-                                
-            <div class="seccio pt-3" id="who">
+            <!-- Who I am? -->                                
+            <div class="seccio pb-5" id="who">
                 <h2 id="titol_who" class="titol text_titol mt-5"><!-- text --></h2>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <img id="myselfImage" alt="marti" src="images/myself.jpg">
                     </div>
-                    <div class="col-lg-8" >
+                    <div class="col-md-8" >
                         <p id="main_text_who" class="text-justify">
                            <!-- text introduit via codi -->
                         </p>
@@ -150,15 +143,12 @@
                     
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-primary" onclick="text_who()" id="myBtn">Read more</button>
+                    <button class="btn btn-primary what" onclick="text_who()" id="myBtn">Read more</button>
                 </div>
             </div>
              
             <!-- My Skills -->
-            <div class="separador" id="skills">
-            
-            </div>
-            <div class="seccio">
+            <div class="seccio mt-5 pb-5">
                  <h2 class="titol text_titol" id="titol_skills"><!-- text --></h2>
                 
                 <p class="text-justify">
@@ -192,11 +182,8 @@
                 
             </div>
 
-            <!-- Entorns professionals -->
-            <div class="separador" id="entorns">
-            
-            </div>
-            <div class="seccio">
+            <!-- Entorns professionals -->            
+            <div class="seccio mt-5 pb-5">
                 <h2 class="titol text_titol" id="titol_entorns">Entorns Professionals</h2>       
                 <div class="row text-center mt-4">
                     <div class="col ">
@@ -245,36 +232,41 @@
            </div>
 
             <!-- Projectes -->
-            <div class="separador" id="projectes">
-            
-            </div>
-            <div class="seccio">
+            <div class="seccio mt-5 pb-5">
                 <h2 class="titol text_titol" id="titol_projectes">Projectes</h2>     
                 <div class="row text-center mt-4">
                     <div class="col sm-4">
-                        <a href="http://abp-politecnics.com/2020/dwb0203/public" rel="noopener noreferrer" target="_blank">
+                      
                             <img class="imatge_projects" src="images/projects/mnatec.jpg" alt="mNACTEC">
-                        </a>                        
+                                              
                         <div class="mt-3">
                             <button class="collapsible">
                                 <h5>
                                     mNACTEC
                                 </h5>
+                                <ul class="text-left">                            
+                                    <li>HMTL + CSS</li>
+                                    <li>Bootstsrap</li>
+                                    <li>JS</li>  
+                                </ul>      
                             </button>
                             <div class="content">
-                                <p id="projects_mNACTEC"></p>
+                                <p id="projects_mNACTEC"> 
                             </div>
                         </div>
                     </div>     
                     <div class="col sm-4">
-                        <a href="http://abp-politecnics.com/2020/dwb0203/public" rel="noopener noreferrer" target="_blank">
-                            <img class="imatge_projects" src="images/projects/broggivec.PNG" alt="Broggi">
-                        </a>
+                        <img class="imatge_projects" src="images/projects/broggivec.PNG" alt="Broggi">
                         <div class="mt-3">
                             <button class="collapsible">
                                 <h5>
                                     Broggi
                                 </h5>
+                                <ul class="text-left">                            
+                                    <li>Laravel</li>
+                                    <li>Bootstsrap</li>
+                                    <li>Vue.js</li>  
+                                </ul> 
                             </button>
                             <div class="content">
                                 <p id="projects_broggi"> </p>
@@ -298,10 +290,7 @@
            </div>
             
             <!-- Pràctiques -->
-            <div class="separador" id="practiques">
-            
-            </div>
-            <div class="seccio">
+            <div class="seccio mt-5 pb-5">
                 <h2 class="titol text_titol" id="titol_practiques">Practiques</h2>     
                 <div class="row text-center">
                     <div class="col sm-6">
@@ -309,12 +298,12 @@
                         <div class="mt-3">
                             <button class="collapsible">
                                 <h5>
-                                    UPC / GGCC
+                                   2020 - UPC / GGCC
                                 </h5>
                             </button>
                             <div class="content">
                                 <p id="intern_upc_text"><!-- text --></p>
-                                <a id="intern_upc_link" class="btn" rel="noopener noreferrer" target="_blank" href="">GGCC</a>
+                                <a id="intern_upc_link" class="btn mb-3 btn-primary what" rel="noopener noreferrer" target="_blank" href="">GGCC</a>
                             </div>
                         </div>                       
                     </div>    
@@ -324,12 +313,12 @@
                         <div class="mt-3">
                             <button class="collapsible">
                                 <h5>
-                                    GJQ Holdigns / ERASMUS+
+                                    2019 - ERASMUS+ / GJQ Holdigns 
                                 </h5>
                             </button>
                             <div class="content">
                                 <p id="intern_gjq_text"><!-- text --></p>
-                                <a id="intern_gjq_link" class="btn" rel="noopener noreferrer" target="_blank" href="">Workin spaces</a>
+                                <a id="intern_gjq_link" class="btn mb-3 btn-primary what" rel="noopener noreferrer" target="_blank" href="">Workin spaces</a>
                             </div>
                         </div>
                     </div>
@@ -338,11 +327,8 @@
            </div>
             
             <!-- Elevator Pitch -->
-            <div class="separador" id="elevator">
-            
-            </div>
-            <div class="seccio">
-                <h2 class="titol text_titol">Elevator Pitch</h2>
+            <div class="seccio mt-5 pb-5">
+                <h2 class="titol text_titol" id="elevator">Elevator Pitch</h2>
                 <!-- 
                 <p>Here there is my elevator pitch, where I talk about myself, my skills, my goals... in just one minute! </p>
                     -->
@@ -354,9 +340,6 @@
             </div>
             
             <!-- More info -->
-            <div class="separador" id="more_info">
-            
-            </div>
             <div class="seccio">                
                 <h1 class="titol text_titol" id="titol_more"></h1>
                 
@@ -366,7 +349,7 @@
                         <p id="more_cv"> </p>
                 
                         <a href="files/Curriculum Vitae Marti Quintana.pdf" rel="noopener noreferrer" target="_blank">
-                            <button class="btn bg-primary text-white">
+                            <button class="btn btn-primary what random text-white">
                                 Curriculum  Vitae
                             </button>        
                         </a>
@@ -375,7 +358,7 @@
                         <h5>LinkedIn</h5>
                         <p id="more_linkedIn"></p>
                         <a href="https://www.linkedin.com/in/mart%C3%AD-quintana-612aa4187/" rel="noopener noreferrer" target="_blank">
-                            <button class="btn bg-primary text-white">
+                            <button class="btn btn-primary what text-white">
                                 LinkedIn 
                             </button>        
                         </a>

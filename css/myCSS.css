@@ -8,6 +8,8 @@
     /*classe per al titols*/
 .text_titol{
     font-family: 'Titan One', cursive;
+    font-size: 50px;
+    padding-top: 70px;
 }
 
 .text_random{
@@ -40,6 +42,94 @@
     background-color: #6DE5ED   !important;
 }
 
+
+/**********************************ALTRE CSS******************************/
+
+
+
+/*id*/
+
+#myselfImage{
+    width: inherit;
+}
+/*classes*/
+
+/* Carousel */
+.img_carousel{
+    width: inherit;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.carousel-inner{
+    height: 400px;
+}
+
+
+
+/* Navabar*/
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.nav-item{
+    width: 150px;
+    text-align: center;
+}
+
+
+/* Container */
+.seccio{
+   padding-top: 10px;
+}
+
+.separador{
+    padding-top: 10px !important;
+}
+
+.titol{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Elevator Pitch*/
+
+
+/*FOOTER*/
+footer{
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+/* media queries */
+@media screen and (max-width: 992px){
+    .carousel-inner{
+        height: 200px;
+    }
+    .display-1{
+        font-size: 30px;
+    }
+    .img_carousel{
+        width: inherit;
+        object-fit: cover;
+        max-height: 200px;
+    }
+    .col-lg{
+        margin-bottom: 15px;
+    }
+   
+    .imatge_entorns{
+        max-height: 75px !important;
+    }
+    
+}
+
+
+
+/*****************************************ALTRE CSS******************************/
 body{
     /*background-color: #B6ECF0 ;*/
     background: linear-gradient(to right, #ffffff, #B6ECF0);
@@ -126,3 +216,16 @@ html {
     border-radius: 10px;
 }
 
+/* llistes projectes*/
+.collapsible ul {
+    margin: 0em !important;
+}
+
+/*Botons*/
+.what{
+    background-color:  #FF5733 !important;
+}
+
+.what:hover{
+    background-color:  grey!important;
+}

@@ -36,25 +36,8 @@ function aplicarCanvis(){
 
     var llista1 = document.getElementById("llista_1");
 
-    /*let li = document.createElement("li");
-    // el parsejem al node
-    li.appendChild(document.createTextNode(missatges.skills.items[0]));
-    li.className = "list-group-item active primari";
-    // l'afegim a la llista
-    llista1.appendChild(li)
-    
-    for(var i = 1; i < missatges.skills.items.length; i++){
-        // si no és a la llista creem un element <li>
-        let li = document.createElement("li");
-        // el parsejem al node
-        li.appendChild(document.createTextNode(missatges.skills.items[i]));
-        li.className= "list-group-item";
-        // l'afegim a la llista
-        llista1.appendChild(li)
-    }*/
-    
     var llista = document.getElementsByClassName("list-group-item");
-    debugger;
+    //debugger;
     for(var i = 0; i < missatges.skills.items.length; i++){
         // si no és a la llista creem un element <li>
         

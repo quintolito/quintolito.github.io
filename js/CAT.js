@@ -31,8 +31,8 @@ var CAT = {
         ]
     },
     projects:{
-        mNACTEC: "Aquest fou el primer projecte, el client fou el mNACTEC un museu científic de Terrassa, Barcelona. Vàrem crear una pàgina web relacionada amb l'història de la radio.<br> <!--<a class=\"button btn btn-dark\" style=\"color: white;\">link radiocep</a>   </br>TEAMMATES --> </br> Lluis Perea </br> Oriol Barrera </br> Roger Baldomà",
-        broggi: "Aquest fou el segon projecte, el client fou l'institut \"Moises Broggi\" de Barcelona. Vàrem crear una pàgina web amb un sistema mèdic per a gestionar inciències. </br> </br></br><a href=\"https://eduardgip85.github.io/portfolio/\">Eduard Gomà </a> </br> Jordi Sanchez",
+        mNACTEC: "Aquest fou el primer projecte, el client fou el mNACTEC un museu científic de Terrassa, Barcelona. Vàrem crear una pàgina web relacionada amb l'història de la radio.<br>  </br> <a href=\"http://lluisperea.herokuapp.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Lluis Perea</a> </br> Oriol Barrera </br> Roger Baldomà </br> </br> <a ><button class=\"btn btn-primary what\">Veure Projecte</button></a>",
+        broggi: "Aquest fou el segon projecte, el client fou l'institut \"Moises Broggi\" de Barcelona. Vàrem crear una pàgina web amb un sistema mèdic per a gestionar inciències. </br> </br><a href=\"https://eduardgip85.github.io/portfolio/\">Eduard Gomà </a> </br> Jordi Sanchez      </br></br></br><a href=\"http://abp-politecnics.com/2020/dwb0203/public\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Veure Projecte</button></a></p>                     ",
         mq: "" 
     },
     internship:{
