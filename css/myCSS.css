@@ -75,7 +75,8 @@
 }
 
 .nav-item{
-    width: 150px;
+    /*width: 150px;*/
+    margin-left: 33px;
     text-align: center;
 }
 
@@ -124,10 +125,21 @@ footer{
     .imatge_entorns{
         max-height: 75px !important;
     }
-    
 }
 
+/* media queries */
+@media screen and (max-width: 1200px){
+    .nav-item{
+        width: 150px;
+    }
+}
 
+#menu_idioma{
+    min-width: 100px !important;
+    margin: 0px;
+    padding: 0px;
+    border: none !important;
+}
 
 /*****************************************ALTRE CSS******************************/
 body{
