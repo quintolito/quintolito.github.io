@@ -141,6 +141,10 @@ footer{
     border: none !important;
 }
 
+#boto_menu_idioma{
+    width: 100px;
+}
+
 /*****************************************ALTRE CSS******************************/
 body{
     /*background-color: #B6ECF0 ;*/
