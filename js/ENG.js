@@ -32,7 +32,7 @@ var ENG = {
     },
     projects:{
         mNACTEC: "This was the first project, the client was mNACTEC a scientific museum from Terrassa, Barcelona. We created a web page related with the radio history.</br> <!--<a class=\"button btn btn-dark\" style=\"color: white;\">link radiocep</a>   </br>TEAMMATES --> </br><a href=\"http://lluisperea.herokuapp.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Lluis Perea</a> </br> Oriol Barrera </br> Roger Baldomà </br> </br><a ><button class=\"btn btn-primary what\">Watch Project</button></a>",
-        broggi: "This was the second project, the client was a college named \"Moises Broggi\" from Barcelona. We created a web where there is a medical system to manage incidencies. </br></br> <a href=\"https://eduardgip85.github.io/portfolio/\">Eduard Gomà </a> </br> Jordi Sanchez </br></br></br><a href=\"http://abp-politecnics.com/2020/dwb0203/public\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Watch Project</button></a></p>",
+        broggi: "This was the second project, the client was a college named \"Moises Broggi\" from Barcelona. We created a web where there is a medical system to manage incidencies. </br></br> <a href=\"https://eduardgip85.github.io/portfolio/\" rel=\"noopener noreferrer\" target=\"_blank\">Eduard Gomà </a> </br> <a href=\"https://jordisanchezcarbonell.github.io/JordiSanchez/\" rel=\"noopener noreferrer\" target=\"_blank\">Jordi Sánchez </a></br></br></br><a href=\"http://abp-politecnics.com/2020/dwb0203/public\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Watch Project</button></a></p>",
         mq: "" 
     },
     internship:{

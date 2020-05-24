@@ -32,7 +32,7 @@ var CAT = {
     },
     projects:{
         mNACTEC: "Aquest fou el primer projecte, el client fou el mNACTEC un museu científic de Terrassa, Barcelona. Vàrem crear una pàgina web relacionada amb l'història de la radio.<br>  </br> <a href=\"http://lluisperea.herokuapp.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Lluis Perea</a> </br> Oriol Barrera </br> Roger Baldomà </br> </br> <a ><button class=\"btn btn-primary what\">Veure Projecte</button></a>",
-        broggi: "Aquest fou el segon projecte, el client fou l'institut \"Moises Broggi\" de Barcelona. Vàrem crear una pàgina web amb un sistema mèdic per a gestionar inciències. </br> </br><a href=\"https://eduardgip85.github.io/portfolio/\">Eduard Gomà </a> </br> Jordi Sanchez      </br></br></br><a href=\"http://abp-politecnics.com/2020/dwb0203/public\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Veure Projecte</button></a></p>                     ",
+        broggi: "Aquest fou el segon projecte, el client fou l'institut \"Moises Broggi\" de Barcelona. Vàrem crear una pàgina web amb un sistema mèdic per a gestionar inciències. </br> </br><a href=\"https://eduardgip85.github.io/portfolio/\" rel=\"noopener noreferrer\" target=\"_blank\">Eduard Gomà </a> </br> <a href=\"https://jordisanchezcarbonell.github.io/JordiSanchez/\" rel=\"noopener noreferrer\" target=\"_blank\">Jordi Sánchez </a>      </br></br></br><a href=\"http://abp-politecnics.com/2020/dwb0203/public\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Veure Projecte</button></a></p>                     ",
         mq: "" 
     },
     internship:{
