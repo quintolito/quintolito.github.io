@@ -34,8 +34,6 @@ function aplicarCanvis(){
     // SKILLS
     document.getElementById("titol_skills").innerHTML = missatges.nav.item2;
 
-    var llista1 = document.getElementById("llista_1");
-
     var llista = document.getElementsByClassName("list-group-item");
     //debugger;
     for(var i = 0; i < missatges.skills.items.length; i++){
