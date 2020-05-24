@@ -1,16 +1,23 @@
 
 var missatges = ENG;
+var source = document.getElementById("source_video");
+
 
 function canviarIdioma(idioma){
-    
+    // canviem el video en funcio del kello
+    var video = document.getElementById("video_intercatiu");    
     if(idioma == "ENG" ){
         missatges = ENG;
+        video.src="videos/interactiu_english.mp4";
     }else if(idioma == "CAT"){
         missatges = CAT;
+        video.src="videos/interactiu_catalan.mp4";
     }else{
         missatges = ESP;
+        video.src="videos/interactiu_spanish.mp4";
     }
-    aplicarCanvis()
+    aplicarCanvis();
+    preparar();
 }
 
 function aplicarCanvis(){
