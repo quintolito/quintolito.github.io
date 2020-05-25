@@ -20,7 +20,7 @@ var CAT = {
             "Desenvolupament Android",
             "Google Analytics",
             "Desenvolupament d'escriptori i Web",
-            "Saber llengües estrangeres",
+            "Coneixement de llengües estrangeres",
             "Habilitat a l'hora de programar",
             "Soft or Personal Skills",
             "Educat",            
