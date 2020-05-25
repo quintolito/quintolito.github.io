@@ -6,18 +6,23 @@ var source = document.getElementById("source_video");
 function canviarIdioma(idioma){
     // canviem el video en funcio del kello
     var video = document.getElementById("video_intercatiu");    
+    var cv = document.getElementById("cv_link");    
     if(idioma == "ENG" ){
         missatges = ENG;
         video.src="videos/interactiu_english.mp4";
+        cv.href = "files/CV Marti Quintana English.pdf"
     }else if(idioma == "CAT"){
         missatges = CAT;
         video.src="videos/interactiu_catalan.mp4";
+        cv.href = "files/CV Marti Quintana Catalan.pdf"
     }else{
         missatges = ESP;
         video.src="videos/interactiu_spanish.mp4";
+        cv.href = "files/CV Marti Quintana Spanish.pdf"
     }
     aplicarCanvis();
     preparar();
+
 }
 
 function aplicarCanvis(){
@@ -57,6 +62,7 @@ function aplicarCanvis(){
     document.getElementById("titol_projectes").innerHTML = missatges.nav.item4;
     document.getElementById("projects_mNACTEC").innerHTML = missatges.projects.mNACTEC;
     document.getElementById("projects_broggi").innerHTML = missatges.projects.broggi;
+    document.getElementById("projects_mq").innerHTML = missatges.projects.mq;
 
     // INTERN
     document.getElementById("titol_practiques").innerHTML = missatges.nav.item5;

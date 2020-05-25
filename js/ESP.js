@@ -30,9 +30,9 @@ var ESP = {
         ]
     },
     projects:{
-        mNACTEC: "Este fué el primer proyecto, el cliente fué el mNACTEC un museo científico de Terrassa, Barcelona. Creamos una página web relacionada con la historia de la Radio.</br>  </br> <a href=\"http://lluisperea.herokuapp.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Lluis Perea</a> </br> Oriol Barrera </br> Roger Baldomà </br> </br><a><button class=\"btn btn-primary what\">Watch Project</button></a>",
+        mNACTEC: "Este fué el primer proyecto, el cliente fué el mNACTEC un museo científico de Terrassa, Barcelona. Creamos una página web relacionada con la historia de la Radio.</br>  </br> <a href=\"http://lluisperea.herokuapp.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Lluis Perea</a> </br> Oriol Barrera </br> <a href=\"https://portfoliodaw-b81c9.firebaseapp.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Roger Baldomà </a> </br> </br><a><button class=\"btn btn-primary what\">Watch Project</button></a>",
         broggi: "Este fué el segundo proyecto, el cliente fué un instituo llamado \"Moises Broggi\" de Barcelona. Creamos una página web donde hay una sistema médico para gestionar indiencias.</br> </br> <a href=\"https://eduardgip85.github.io/portfolio/\" rel=\"noopener noreferrer\" target=\"_blank\">Eduard Gomà </a> </br> <a href=\"https://jordisanchezcarbonell.github.io/JordiSanchez/\" rel=\"noopener noreferrer\" target=\"_blank\">Jordi Sánchez </a> </br></br></br><a href=\"http://abp-politecnics.com/2020/dwb0203/public\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Ver Proyecto</button></a></p>",
-        mq: "" 
+        mq: "Este fué el tercer proyecto, los clientes fuimos l'Edu y yo. Decidimos crear una aplicación Quiz en una pàgina web, con las herramientas y los conocimientos adquiridos durante este curso acadèmico.</br></br> <a href=\"https://eduardgip85.github.io/portfolio/\" rel=\"noopener noreferrer\" target=\"_blank\">Eduard Gomà </a></br></br></br><a href=\"http://masterquiz.es\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Watch Project</button></a></p>" 
     },
     internship:{
         upc:{
@@ -46,7 +46,7 @@ var ESP = {
         }
     },
     mes_info:{
-        cv: "Aquí nesta mi CV por si le quieres echar un vistazo",
+        cv: "Aquí esta mi CV por si le quieres echar un vistazo",
         linkedIn: "Si quieres saber un poco más de mí aquí hay mi perfil de LinkedIn"
     }
 }
