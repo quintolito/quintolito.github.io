@@ -1,4 +1,4 @@
-var video = document.getElementById("video_intercatiu");    
+/*var video = document.getElementById("video_intercatiu");    
 //var source = document.getElementById("source_video");
 var div = document.getElementById('playVideo');
 var pauses = [];
@@ -20,14 +20,14 @@ function preparar()
     }else{
         pauses = [12, 22, 33, 49, 62, 75, 89]
     } 
-   /* if (video.hasAttribute("controls")) {
+    if (video.hasAttribute("controls")) {
         video.removeAttribute("controls")   
-    }*/
+    }
 
     div.innerHTML ="";
     div.innerHTML = '<button onclick="amagarBotons()" id="play" class="btn btn-primary what">PLAY</button>';
 }
-/*
+
 video.ontimeupdate = function(){
     
     if( i < pauses.length){
@@ -38,7 +38,7 @@ video.ontimeupdate = function(){
             i++;   
         }
     }    
-}*/
+}
         
 video.addEventListener("timeupdate", function(){
 
@@ -108,6 +108,4 @@ function amagarBotons(){
     
     div.style.display = "none";
     video.play();
-}
-
-
+}*/

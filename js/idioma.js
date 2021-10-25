@@ -9,19 +9,19 @@ function canviarIdioma(idioma){
     var cv = document.getElementById("cv_link");    
     if(idioma == "ENG" ){
         missatges = ENG;
-        video.src="videos/interactiu_english.mp4";
+        //video.src="videos/interactiu_english.mp4";
         cv.href = "files/CV Marti Quintana English.pdf"
     }else if(idioma == "CAT"){
         missatges = CAT;
-        video.src="videos/interactiu_catalan.mp4";
+        //video.src="videos/interactiu_catalan.mp4";
         cv.href = "files/CV Marti Quintana Catalan.pdf"
     }else{
         missatges = ESP;
-        video.src="videos/interactiu_spanish.mp4";
+        //video.src="videos/interactiu_spanish.mp4";
         cv.href = "files/CV Marti Quintana Spanish.pdf"
     }
     aplicarCanvis();
-    preparar();
+    //preparar();
 
 }
 
