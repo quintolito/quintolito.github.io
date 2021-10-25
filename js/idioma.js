@@ -34,7 +34,7 @@ function aplicarCanvis(){
     document.getElementById("item3").innerHTML = missatges.nav.item3;
     document.getElementById("item4").innerHTML = missatges.nav.item4;
     document.getElementById("item5").innerHTML = missatges.nav.item5;
-    document.getElementById("item6").innerHTML = missatges.nav.item6;
+    //document.getElementById("item6").innerHTML = missatges.nav.item6;
     document.getElementById("item7").innerHTML = missatges.nav.item7;
     
 
