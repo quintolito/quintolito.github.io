@@ -31,9 +31,9 @@ function aplicarCanvis(){
     // NAV
     document.getElementById("item1").innerHTML = missatges.nav.item1;
     document.getElementById("item2").innerHTML = missatges.nav.item2;
-    document.getElementById("item3").innerHTML = missatges.nav.item3;
+    //document.getElementById("item3").innerHTML = missatges.nav.item3;
     document.getElementById("item4").innerHTML = missatges.nav.item4;
-    document.getElementById("item5").innerHTML = missatges.nav.item5;
+    document.getElementById("item5").innerHTML = missatges.nav.item3;
     //document.getElementById("item6").innerHTML = missatges.nav.item6;
     document.getElementById("item7").innerHTML = missatges.nav.item7;
     
@@ -56,7 +56,7 @@ function aplicarCanvis(){
     }
 
     // ENTORNS
-    document.getElementById("titol_entorns").innerHTML = missatges.nav.item3;
+    //document.getElementById("titol_entorns").innerHTML = missatges.nav.item3;
 
     // PROJECTES 
     document.getElementById("titol_estudis").innerHTML = missatges.nav.item4;
@@ -65,7 +65,7 @@ function aplicarCanvis(){
     document.getElementById("projects_mq").innerHTML = missatges.projects.mq;
 
     // INTERN
-    document.getElementById("titol_practiques").innerHTML = missatges.nav.item5;
+    //document.getElementById("titol_practiques").innerHTML = missatges.nav.item5;
     document.getElementById("intern_upc_text").innerHTML = missatges.internship.upc.text;
     document.getElementById("intern_upc_link").href = missatges.internship.upc.a;
     document.getElementById("intern_gjq_text").innerHTML = missatges.internship.gjq.text;

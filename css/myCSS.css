@@ -185,6 +185,7 @@ div a:hover{
 /*INTERN*/
 .imatge_intern{
     max-height: 125px;
+    background: #FF5733;
 }
 
 /* ANIMACIO anclas*/
