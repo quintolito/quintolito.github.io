@@ -3,7 +3,7 @@ var ENG = {
         item1: "Who am I?",
         item2: "My skills",
         item3: "Professional",
-        item4: "Projects",
+        item4: "My Studies",
         item5: "Internship",
         item6: "Elevator Pitch",
         item7: "More Information",

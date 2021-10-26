@@ -59,7 +59,7 @@ function aplicarCanvis(){
     document.getElementById("titol_entorns").innerHTML = missatges.nav.item3;
 
     // PROJECTES 
-    document.getElementById("titol_projectes").innerHTML = missatges.nav.item4;
+    document.getElementById("titol_estudis").innerHTML = missatges.nav.item4;
     document.getElementById("projects_mNACTEC").innerHTML = missatges.projects.mNACTEC;
     document.getElementById("projects_broggi").innerHTML = missatges.projects.broggi;
     document.getElementById("projects_mq").innerHTML = missatges.projects.mq;

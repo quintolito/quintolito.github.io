@@ -3,7 +3,7 @@ var ESP = {
         item1: "¿Quién soy?",
         item2: "Habilidades",
         item3: "Profesional",
-        item4: "Proyectos",
+        item4: "Mis estudios",
         item5: "Prácticas",
         item6: "Elevator Pitch",
         item7: "Más Información",

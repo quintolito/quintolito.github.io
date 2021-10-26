@@ -3,7 +3,7 @@ var CAT = {
         item1: "Qui sóc?",
         item2: "Habilitats",
         item3: "Professional",
-        item4: "Projectes",
+        item4: "Els meus Estudis",
         item5: "Pràctiques",
         item6: "Elevator Pitch",
         item7: "Més informació",
