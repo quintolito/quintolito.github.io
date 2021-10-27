@@ -1,6 +1,6 @@
 var ENG = {
     nav:{
-        item1: "Who am I?",
+        item1: "Introduction",
         item2: "My skills",
         item3: "Professional",
         item4: "My Studies",
@@ -36,13 +36,13 @@ var ENG = {
         mq: "This was the third project, the cients were Edu and I. We decided to create a Quiz Game App for Web, with the tools and knowledge acquired in this course and use them to create this app. </br></br> <a href=\"https://eduardgip85.github.io/portfolio/\" rel=\"noopener noreferrer\" target=\"_blank\">Eduard Gomà </a></br></br></br><a href=\"http://masterquiz.es\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Watch Project</button></a></p>" 
     },
     internship:{
-        upc:{
-            a: "https://2c.ggcc.upc.edu/",
-            text: "This current year I worked, for 4 months, for the GGCC investigation group, in the UPC (Politechnically University of Catalonia). The investigation was related with the Climate Change and the Paris Climate Agreement. I worked with university teachers who help me to learn new thing about this field."
+        trevol:{
+            a: "https://blocs.xarxanet.org/associaciotrevol/category/infants-i-families/",
+            text: "Years 2020 & 2021 I’ve still been working in summer camp, but in Trevol. Trevol is an organization where I had the opportunity to work with kids that haves Functionally diversity, both monitor and vetllador."
         },
-        gjq:{
+        vendrell:{
             a:"http://workinspaces.co.uk/",
-            text: "I went to London last year and I worked in this stratup for three months. There I could meet fantastic pepople and I adquired more knowledge than I ever could imagine. None of that waoudn't have been possible without a Eramus+ grant which I got by a contest, provided by Centre d'Estudis Politècnics and the EU."
+            text: "Years 2018 & 2019 I worked in summer camps of el Vendrell, my village, as monitor of free time. That was my first professional experience in the education field. "
 
         }
     },

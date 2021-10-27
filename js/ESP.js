@@ -1,6 +1,6 @@
 var ESP = {
     nav:{
-        item1: "¿Quién soy?",
+        item1: "Introducción",
         item2: "Habilidades",
         item3: "Profesional",
         item4: "Mis estudios",
@@ -35,13 +35,13 @@ var ESP = {
         mq: "Este fué el tercer proyecto, los clientes fuimos l'Edu y yo. Decidimos crear una aplicación Quiz en una pàgina web, con las herramientas y los conocimientos adquiridos durante este curso acadèmico.</br></br> <a href=\"https://eduardgip85.github.io/portfolio/\" rel=\"noopener noreferrer\" target=\"_blank\">Eduard Gomà </a></br></br></br><a href=\"http://masterquiz.es\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Watch Project</button></a></p>" 
     },
     internship:{
-        upc:{
-            a: "https://2c.ggcc.upc.edu/",
-            text: "Este mismo año trabajé, durante 4 meses, para el grupo de investigación GGCC, en la UPC (Universidad Politécnica de Cataluña). La investigación estaba relacionada con el Cambio Climático y el Acuerdo Climático de Paris. Trabajé junto a profesores universitarios que me enseñaron nuevas cosas en este campo."
+        trevol:{
+            a: "https://blocs.xarxanet.org/associaciotrevol/category/infants-i-families/",
+            text: "Los años 2020 y 2021 he seguido con casales de verano, pero en Trevol. Trevol es un espacio donde he tenido la oportunidad de trabajar con niños que tienen diversidad funcional ya sea como monitor, o como a velador."
         },
-        gjq:{
+        vendrell:{
             a:"http://workinspaces.co.uk/",
-            text: "El año pasado fuí a Londres, trabajé en esta \"Startup\" durante 3 meses. Allí conocí a gente fantástica y adquirí más conocimiento del que pude llegar a imaginar. Nada de esto ubiera sido posible sin la beca Eramus+, que postulé para ella, proporcionada por Centre d'Estudis Politècnics y la UE."
+            text: "Durante los años 2018 y 2019 trabajé en los casales de verano de El Vendrell, mi pueblo, como a monitor de tiempo libre. Esta fue mi primera experiencia profesional dentro el sector de la educación."
 
         }
     },

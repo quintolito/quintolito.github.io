@@ -66,10 +66,10 @@ function aplicarCanvis(){
 
     // INTERN
     //document.getElementById("titol_practiques").innerHTML = missatges.nav.item5;
-    document.getElementById("intern_upc_text").innerHTML = missatges.internship.upc.text;
-    document.getElementById("intern_upc_link").href = missatges.internship.upc.a;
-    document.getElementById("intern_gjq_text").innerHTML = missatges.internship.gjq.text;
-    document.getElementById("intern_gjq_link").href = missatges.internship.gjq.a;
+    document.getElementById("intern_upc_text").innerHTML = missatges.internship.vendrell.text;
+    document.getElementById("intern_upc_link").href = missatges.internship.vendrell.a;
+    document.getElementById("intern_gjq_text").innerHTML = missatges.internship.trevol.text;
+    document.getElementById("intern_gjq_link").href = missatges.internship.trevol.a;
     
     
     // + INFO

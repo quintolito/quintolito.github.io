@@ -1,6 +1,6 @@
 var CAT = {
     nav:{
-        item1: "Qui sóc?",
+        item1: "Introducció",
         item2: "Habilitats",
         item3: "Professional",
         item4: "Els meus Estudis",
@@ -36,13 +36,13 @@ var CAT = {
         mq: "Aquest va ser el tercer projecte, els clients varen ser l'Edu i jo. Vam decidir de crear un aplicació Quiz a una pàgina web, amb les eines i els coneixement adquirits durant aquest curs acadèmic.</br></br> <a href=\"https://eduardgip85.github.io/portfolio/\" rel=\"noopener noreferrer\" target=\"_blank\">Eduard Gomà </a></br></br></br><a href=\"http://masterquiz.es\" rel=\"noopener noreferrer\" target=\"_blank\"><button class=\"btn btn-primary what\">Watch Project</button></a></p>"  
     },
     internship:{
-        upc:{
-            a: "https://2c.ggcc.upc.edu/",
-            text: "Aquest mateix any he treballat, durant 4 mesos, pel grup d'investigació GGCC, a la UPC (Universitat Politècnica de Catalunya). La investigació anava sobre el Canvi Climàtic i l'Acord Climàtic de Paris. Vaig treballar amb professors d'univeristat que em van ajudar a aprendre coses noves sobre aquest camp."
+        trevol:{
+            a: "https://blocs.xarxanet.org/associaciotrevol/category/infants-i-families/",
+            text: "L’any 2020 i 2021 he seguit a casals d’estiu, però a Trevol. Trevol és un espai on he tingut l’oportunitat de treballar amb infants que tenen diversitat funcional tant com a monitor com a vetllador."
         },
-        gjq:{
+        vendrell:{
             a:"http://workinspaces.co.uk/",
-            text: "L'any passat vaig anar a Londres, vaig treballar en aquesta \"Stratup\" durant 3 mesos. Allà vaig conèixer gent fantàstica i vaig adquirir coneixments que mai hagués pogut imaginar. Res d'això no hagués estat possible sino hagués aconeguit una beca Erasmus+, la qual hi vaig postular, beca oferida pel Centre d'Estudis Politècnics i la UE."
+            text: "Durant els anys 2018 i 2019 vaig treballar als casals d’estiu de El Vendrell, el meu poble, com a monitor de lleure. Aquesta va ser la meva primera experiència professional dins el sector de l’educació. "
 
         }
     },

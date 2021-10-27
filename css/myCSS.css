@@ -148,7 +148,7 @@ footer{
 /*****************************************ALTRE CSS******************************/
 body{
     /*background-color: #B6ECF0 ;*/
-    background: linear-gradient(to right, #ffffff, #B6ECF0);
+    background: linear-gradient(to left, #ffffff, #B6ECF0);
 }
 
 li a{
@@ -185,7 +185,7 @@ div a:hover{
 /*INTERN*/
 .imatge_intern{
     max-height: 125px;
-    background: #FF5733;
+    /*background: #FF5733;*/
 }
 
 /* ANIMACIO anclas*/
