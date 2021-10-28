@@ -1,5 +1,5 @@
 
-var missatges = ENG;
+var missatges = CAT;
 var source = document.getElementById("source_video");
 
 
