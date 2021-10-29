@@ -32,10 +32,10 @@ function aplicarCanvis(){
     document.getElementById("item1").innerHTML = missatges.nav.item1;
     //document.getElementById("item2").innerHTML = missatges.nav.item2;
     //document.getElementById("item3").innerHTML = missatges.nav.item3;
-    document.getElementById("item4").innerHTML = missatges.nav.item4;
+    //document.getElementById("item4").innerHTML = missatges.nav.item4;
     document.getElementById("item5").innerHTML = missatges.nav.item3;
     //document.getElementById("item6").innerHTML = missatges.nav.item6;
-    document.getElementById("item7").innerHTML = missatges.nav.item7;
+    //document.getElementById("item7").innerHTML = missatges.nav.item7;
     
 
     // WHO
@@ -59,10 +59,10 @@ function aplicarCanvis(){
     //document.getElementById("titol_entorns").innerHTML = missatges.nav.item3;
 
     // PROJECTES 
-    document.getElementById("titol_estudis").innerHTML = missatges.nav.item4;
+    /*document.getElementById("titol_estudis").innerHTML = missatges.nav.item4;
     document.getElementById("projects_mNACTEC").innerHTML = missatges.projects.mNACTEC;
     document.getElementById("projects_broggi").innerHTML = missatges.projects.broggi;
-    document.getElementById("projects_mq").innerHTML = missatges.projects.mq;
+    document.getElementById("projects_mq").innerHTML = missatges.projects.mq;*/
 
     // INTERN
     //document.getElementById("titol_practiques").innerHTML = missatges.nav.item5;
@@ -73,9 +73,10 @@ function aplicarCanvis(){
     
     
     // + INFO
-    document.getElementById("titol_more").innerHTML = missatges.nav.item7;
+    
+    /*document.getElementById("titol_more").innerHTML = missatges.nav.item7;
     document.getElementById("more_cv").innerHTML = missatges.mes_info.cv;
-    document.getElementById("more_linkedIn").innerHTML = missatges.mes_info.linkedIn;
+    document.getElementById("more_linkedIn").innerHTML = missatges.mes_info.linkedIn;*/
 
     // mirar coses lògiques
     text_who();    

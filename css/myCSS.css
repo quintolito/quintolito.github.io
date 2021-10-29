@@ -50,7 +50,9 @@
 /*id*/
 
 #myselfImage{
-    width: inherit;
+    /*width: inherit;*/
+    height: 325px;
+
 }
 /*classes*/
 

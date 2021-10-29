@@ -1,5 +1,6 @@
 
 function text_who(){
+  /*
     var dots = document.getElementById("dots");
     var moreText = document.getElementsByClassName("more");
     var btnText = document.getElementById("myBtn");
@@ -14,7 +15,7 @@ function text_who(){
       btnText.innerHTML = "Read less"; 
       moreText[0].style.display = "inline";
       moreText[1].style.display = "inline";
-    }
+    }*/
 }
 
 var coll = document.getElementsByClassName("collapsible");
