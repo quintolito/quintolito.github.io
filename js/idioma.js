@@ -30,7 +30,7 @@ function aplicarCanvis(){
 
     // NAV
     document.getElementById("item1").innerHTML = missatges.nav.item1;
-    document.getElementById("item2").innerHTML = missatges.nav.item2;
+    //document.getElementById("item2").innerHTML = missatges.nav.item2;
     //document.getElementById("item3").innerHTML = missatges.nav.item3;
     document.getElementById("item4").innerHTML = missatges.nav.item4;
     document.getElementById("item5").innerHTML = missatges.nav.item3;
@@ -44,16 +44,16 @@ function aplicarCanvis(){
     document.getElementById("sec_text_who").innerHTML = missatges.who.sec_text;
 
     // SKILLS
-    document.getElementById("titol_skills").innerHTML = missatges.nav.item2;
+    //document.getElementById("titol_skills").innerHTML = missatges.nav.item2;
 
-    var llista = document.getElementsByClassName("list-group-item");
+    /*var llista = document.getElementsByClassName("list-group-item");
     //debugger;
     for(var i = 0; i < missatges.skills.items.length; i++){
         // si no és a la llista creem un element <li>
         
         // el parsejem al node
        llista[i].innerHTML= missatges.skills.items[i];
-    }
+    }*/
 
     // ENTORNS
     //document.getElementById("titol_entorns").innerHTML = missatges.nav.item3;
