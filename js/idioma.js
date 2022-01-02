@@ -71,7 +71,10 @@ function aplicarCanvis(){
     document.getElementById("intern_gjq_text").innerHTML = missatges.internship.trevol.text;
     document.getElementById("intern_gjq_link").href = missatges.internship.trevol.a;
     
-    
+    //  UTILITAT
+    document.getElementById("main_text_utilitat").innerHTML = missatges.explicacio_utilitat.info;
+
+
     // + INFO
     
     /*document.getElementById("titol_more").innerHTML = missatges.nav.item7;
