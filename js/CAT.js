@@ -38,10 +38,10 @@ var CAT = {
     internship:{
         trevol:{
             a: "https://blocs.xarxanet.org/associaciotrevol/category/infants-i-families/",
-            text: "L’any 2020 i 2021 he seguit en casals d’estiu, però a Trevol. Trevol és un espai on he tingut l’oportunitat de treballar amb infants que tenen diversitat funcional tant com a monitor com a vetllador."
+            text: "L’any 2020 i 2021 he seguit en casals d’estiu, però a Trevol. Trèvol és un espai on he tingut l’oportunitat de treballar amb infants que tenen diversitat funcional tant com a monitor com a vetllador."
         },
         vendrell:{
-            a:"http://workinspaces.co.uk/",
+            a:"https://www.elvendrell.net/casals-d-estiu",
             text: "Durant els anys 2018 i 2019 vaig treballar als casals d’estiu de El Vendrell, el meu poble, com a monitor de lleure. Aquesta va ser la meva primera experiència professional dins el sector de l’educació. "
 
         }
