@@ -77,7 +77,9 @@ function aplicarCanvis(){
     //  REFLEXIO 
     document.getElementById("main_text_reflexio_final").innerHTML = missatges.reflexio_final.info;
 
-
+    // CONCLUSIÓ
+    document.getElementById("main_text_conclusio_final").innerHTML = missatges.conclusio_final.info;
+    
     // + INFO
     
     /*document.getElementById("titol_more").innerHTML = missatges.nav.item7;
